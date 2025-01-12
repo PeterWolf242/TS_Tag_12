@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color_black: #0c0c0c;
+  --color_white: #ffffff;
+  --color_cyan: #00ffff;
+}
+
+body {
+  background-color: var(--color_black);
+  color: var(--color_white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+  width: 80vw;
+  margin: 2rem auto 0 50%;
+  transform: translatex(-50%);
+  padding: 1rem 2rem 25vh 2rem;
+  border: 2px solid var(--color_cyan);
+  border-radius: 20px;
+}
+
+label,
+option {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+}
+
+select {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+option {
+  text-align: right;
+}
+
+label {
+  color: var(--color_cyan);
+  text-transform: uppercase;
+}
+
+input,
+select {
+  display: block;
+  width: 50%;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: right;
+}
+
+button {
+  display: block;
+  width: fit-content;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  background-color: var(--color_cyan);
+  color: black;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  border-radius: 100vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+#btnReset {
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  box-shadow: 0 0 10px var(--color_cyan), 0 0 20px var(--color_cyan);
+  border: none;
+  outline: none;
+}
+
+#btnReset:hover {
+  box-shadow: 0 0 10px red, 0 0 20px red;
+}
+
+h2 {
+  color: var(--color_cyan);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+#result {
+  display: block;
+  color: var(--color_cyan);
+  margin: 2rem 0 0 0;
+  font-size: 2rem;
+}
+
+.output p {
+  text-align: left;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+figcaption {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: var(--color_cyan);
+}

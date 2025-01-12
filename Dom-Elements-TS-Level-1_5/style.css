@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --color_black: #0c0c0c;
+  --color_white: #ffffff;
+  --color_cyan: #00ffff;
+}
+
+body {
+  background-color: var(--color_black);
+  color: var(--color_white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.style {
+  display: inline-block;
+  border-radius: 5px;
+  background: #666;
+  color: white;
+  padding: 5px;
+}
+
+
+.example {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+label,
+option {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+}
+
+select {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+option {
+  text-align: right;
+}
+
+label {
+  color: var(--color_cyan);
+  text-transform: uppercase;
+}
+
+input,
+select {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+button {
+  display: block;
+  width: fit-content;
+  margin: 4rem 0;
+  padding: 1rem 2rem;
+  background-color: var(--color_cyan);
+  color: black;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  border-radius: 100vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+#btnReset {
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  box-shadow: 0 0 10px var(--color_cyan), 0 0 20px var(--color_cyan);
+  border: none;
+  outline: none;
+}
+
+#btnReset:hover {
+  box-shadow: 0 0 10px red, 0 0 20px red;
+}
+
+h2 {
+  color: var(--color_cyan);
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+p, li {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 2rem 0;
+}
