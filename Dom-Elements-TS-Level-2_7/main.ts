@@ -1,6 +1,5 @@
 const button = document.querySelector("button");
 const wrapper = document.querySelector<HTMLDivElement>(".wrapper");
-const newItem = document.querySelectorAll(".wrapper div");
 const array: any[] = [];
 
 button?.addEventListener("click", function () {
